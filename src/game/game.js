@@ -45,7 +45,7 @@ document.getElementById('pointsBody').addEventListener('input', calculateScores)
 
 // 戻るボタンの動作
 document.getElementById('backButton').addEventListener('click', function() {
-    window.location.href = 'index.html'; // プレイヤー登録ページに戻る
+    window.location.href = '../top/index.html'; // プレイヤー登録ページに戻る
 });
 
 // 初期合計を設定（全て0で初期化）

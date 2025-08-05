@@ -31,9 +31,9 @@ function startGame() {
     });
 
     localStorage.setItem('players', JSON.stringify(players));
-    window.location.href = 'game.html';
+    window.location.href = '../game/game.html';
 }
 
 function goToAggregatePage() {
-    window.location.href = 'aggregate.html'; // 集計ページに遷移
+    window.location.href = '../aggregate/aggregate.html'; // 集計ページに遷移
 }
