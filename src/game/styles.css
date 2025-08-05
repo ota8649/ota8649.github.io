@@ -1,0 +1,99 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px; /* コンテナの幅を広げる */
+    margin: auto; /* 中央寄せ */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.output-area {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px; /* セルのパディング */
+    text-align: left;
+    white-space: nowrap; /* テキストの折返しを防止 */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* 入力フィールドのスタイル */
+input[type="number"] {
+    width: 80px; /* 適切な入力フィールドの幅 */
+    padding: 5px;
+    margin: 0; /* マージンをゼロに */
+}
+
+/* ボタンのスタイル */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* ボタンを均等に配置 */
+    margin-top: 20px; /* 上にマージンを追加 */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50; /* ヘッダーの背景色を設定 */
+    color: white; /* ヘッダーの文字色を白に */
+}
+
+td {
+    background-color: #f4f4f4; /* セルの背景色を薄いグレーに */
+}
+
+/* 行の色を交互に変更 */
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: #e9e9e9; /* 明るいグレー */
+}

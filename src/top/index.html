@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>麻雀成績表 made AIちゃん</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>麻雀成績表 made AIちゃん</h1>
+
+        <div class="input-area">
+            <label for="playerInput">プレイヤー名を入力:</label>
+            <input type="text" id="playerInput" placeholder="プレイヤー名を入力してください">
+            <button id="addPlayerButton">追加</button>
+        </div>
+
+        <div class="output-area">
+            <h2>プレイヤーリスト</h2>
+            <ul id="playerList"></ul>
+        </div>
+
+        <button id="startGameButton">対局開始</button>
+        <button id="aggregateButton">集計ページへ</button> <!-- 新しいボタンを追加 -->
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
